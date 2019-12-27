@@ -1,0 +1,100 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : CCheptel
+ major_version : 25
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x1e05febd0022d0b2
+ internal_properties : BQAAAAUAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  type_code : 10
+  p_codes :
+   -
+     code : |1-
+      CCheptel est une Classe
+      	hérite de AObject
+      prive
+      	m_sCopach	est une chaine
+      	m_sNuchep	est une chaine
+      	m_tabBovins	est un tableau de CBovin dynamique
+      FIN
+     type : 131072
+  procedures :
+   -
+     name : Constructeur
+     procedure_id : 2163415283726012594
+     type_code : 27
+     code : |1-
+      PROCEDURE Constructeur()
+     type : 589824
+   -
+     name : Destructeur
+     procedure_id : 2163415283726078130
+     type_code : 28
+     code : |1-
+      PROCEDURE Destructeur()
+     type : 655360
+  properties :
+   -
+     name : p_sCopach
+     identifier : 0x1e05fefa0025bd64
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE PUBLIQUE p_sCopach() : chaîne
+         RENVOYER m_sCopach
+        type : 1966080
+      -
+        code : |1-
+         PROCEDURE PUBLIQUE p_sCopach(sValeur est une chaîne)
+         m_sCopach = sValeur
+        type : 2031616
+     template_refs : []
+   -
+     name : p_sNuchep
+     identifier : 0x1e05ff000026d4b5
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE PUBLIQUE p_sNuchep() : chaîne
+         RENVOYER m_sNuchep
+        type : 1966080
+      -
+        code : |1-
+         PROCEDURE PUBLIQUE p_sNuchep(sValeur est une chaîne)
+         m_sNuchep = sValeur
+        type : 2031616
+     template_refs : []
+   -
+     name : p_tabBovins
+     identifier : 0x1e05ff050027e86b
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE PUBLIQUE p_tabBovins() : tableau de CBovin dynamique
+         RENVOYER m_tabBovins
+        type : 1966080
+      -
+        code : |1-
+         PROCEDURE PUBLIQUE p_tabBovins(tabValeur est un tableau de cbovin dynamique)
+         m_tabBovins = tabValeur
+        type : 2031616
+     template_refs : []
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : Classe1
+resources :
+ string_res :
+  identifier : 0x1e05feb8001cbd1a
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
