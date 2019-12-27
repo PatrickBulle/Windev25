@@ -1,0 +1,79 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Principale
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Principale
+ identifier : 0x2e05f6b70076779c
+ internal_properties : BQAAAAUAAAAPB9+XRk7NGF+bOUc4ZrdmS53OiqfUoXuw6BTXUTNP6jnV1GFSpnFCzpg0OJPRWad6sgcBe+N/iuR5pd/WznUtSQmYHAzZwhtUD+dEqcZs+cAesMcTex74vPi8NNiHK+f8L8XsU4BVVKrrmpo31z/Lr6C6VlzA4aBpayjdPsc9ChvQ/PaQPcc6AhhG2aPj/Ge405O4F5T+uEX5lvg9yz0vWiBKgAwWTsjrH7Sl/dTm5w4xBsGvp6weOiIUq5Mh3VqaSry1ur9yRjyVCmBS/mAnZQkJJXGIhekieFKb9xkeg2P/tdMb0ejQ9UHyq6VrR1jrx+3xuC0s/AGxMt1dNt1rmfu7wAxsGxbKVm26QuvzoDzDUVnwifZE2vTShCWCyL+asnxiT0JHIzIc+h6Q5W+3e+0v1nmNvCr+jt+No8dToiJGJ8xpnJ86XaIbDxKkvkYLVHcluR3U/D+Yw7fcBxOxYMUKJOEiD0zKDE/kQQ6T6iYouLv2TDdRCqQ7XMFqj4GgxIYwZNzCZrDMq7vk68OKRIM/8LtHXT6V0xyskSUD9DefNoNG4YgIq2nsb4b1X9w+kSCLjwlgvANawQVkHbujFEy/4HR5hB3IKqyxSuM22g5M7K2I1msEOFj1if4GCmC+/heon+Mak7WHF0lGu6ApyxVG9O/zdA==
+ controls :
+  -
+    name : BTN_Coucou
+    identifier : 0x2e05f6ea00bc3ed4
+    internal_properties : BQAAAAUAAAChkTUt9/3sceshEOCfXevAxwrqSO23OT6fFtZEfJyELfMX6Jl1FZjQRjC0PagACpxDmv/4IBII4I+lPw8FdzI0q5fN+Vvn2sIZLnWw9T4XsuKSTC+VmhPG7f02zZKmWU64CQgNDmgl/DtdyM8vtntUb/KQnrVZtEX44EUh+64mJmcgND5w2PbRc0CjT6bTJMM/DNEcz0e/V6zyqAz8A4bfPQc+TpO57WyiyU+2Py2Nhx64+f1pNFG7zAAid8dYRND8BxYxaLhuBYeaOMAl00oXaVaJyqz5f/AJ4ZPtd+IEhQIyoZerxoYwd1tBZ5/anOXrfJh5kKJShYfde4Lv0bMe8FVyFeQHGQ9E0wD1dqedzlNihlrQwo83IdX95HFWSy69Hsy6C2jFAtQUCn0Nu3sVRn1LvMhm67MuySpA7R7d4ZU8g6WqzQdpcCgQIv5Z/pOIUA+aFtbMUl8SFcaT5S/2TxG8DVC+82/zBrmHB3Cf+eoQD7c6hbfwnfeC01Zqjbxpz68hmSG5wouNgI31RZImH2o8YzB+JBhwnuand2SKdI0l4RMewbMIKtYeEZgpqHF2hGG4j6yV7lz/aEJYlW+QeijJJaLUQSqTK9KVlNz1RYsX15AHCUqN3sB33WKXc2UbwKsCgzUI4PUfihM2p4q/lDjTJiKDY1CSohOIT+oPeTb74nMYsykKxP6e4mx9TB4+s05RKuTFyl/lhgWw3aicp+uDS44uwey2ss90lBhbrqM=
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         info("Coucou, il est" + heureverschaine(heuresys(), "HH:MM"))
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABd4biPtdLQOwfUFiqrit8H4xfGqKyz9t6VLxCUnNZRQiLPVs82PZNE+UVdKRzjizyeuKyRur85gNMUfqplpmtNDnQWQla9zo+GH9+1EfUJ6w17Dn/egD/gv+Hhywk8c9unIdzEp7EHgaAqD28w7Agveg4u19PBcKGZtQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+   -
+     code : |1-
+      
+     type : 34
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 234
+   -
+     code : |1-
+      
+     type : 177
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : BQAAAAUAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1e05f6af00025772
+  internal_properties : BQAAAAUAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

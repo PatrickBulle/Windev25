@@ -1,0 +1,83 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : CBovin
+ major_version : 25
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x1e05f7f300154bd1
+ internal_properties : BQAAAAUAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  type_code : 10
+  p_codes :
+   -
+     code : |1-
+      CBovin est une Classe
+      	hérite de AObject
+      prive
+      	m_sCopaip	est une chaine
+      	m_sNunati	est une chaine
+      FIN
+     type : 131072
+  procedures :
+   -
+     name : Constructeur
+     procedure_id : 2163407819071966161
+     type_code : 27
+     code : |1-
+      PROCEDURE Constructeur()
+     type : 589824
+   -
+     name : Destructeur
+     procedure_id : 2163407819072031697
+     type_code : 28
+     code : |1-
+      PROCEDURE Destructeur()
+     type : 655360
+  properties :
+   -
+     name : p_sCopaip
+     identifier : 0x1e05f8170018d600
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE PUBLIQUE p_sCopaip() : chaîne
+         RENVOYER m_sCopaip
+        type : 1966080
+      -
+        code : |1-
+         PROCEDURE PUBLIQUE p_sCopaip(sValeur est une chaîne)
+         m_sCopaip = sValeur
+        type : 2031616
+     template_refs : []
+   -
+     name : p_sNunati
+     identifier : 0x1e05f81a0019e16a
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE PUBLIQUE p_sNunati() : chaîne
+         RENVOYER m_sNunati
+        type : 1966080
+      -
+        code : |1-
+         PROCEDURE PUBLIQUE p_sNunati(sValeur est une chaîne)
+         m_sNunati = sValeur
+        type : 2031616
+     template_refs : []
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : Classe1
+resources :
+ string_res :
+  identifier : 0x1e05f7ee000f38a7
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
